@@ -24,13 +24,13 @@ def load_your_dataset():
     test_tuple_q=[]
     test_a=[]
     
-    for i in range(2000):
+    for i in range(10000):
         
         train_quest,train_ans=generateQuestAndAnswer()
         train_tuple_q.append(train_quest)
         train_a.append(train_ans)
     
-    for i in range(10000):
+    for i in range(2000):
         
         test_quest,test_ans=generateQuestAndAnswer()
         test_tuple_q.append(test_quest)
